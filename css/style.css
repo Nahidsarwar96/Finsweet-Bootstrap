@@ -1,0 +1,125 @@
+/* ==================Common css start========================= */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+img,
+div {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --poppins: "Poppins", sans-serif;
+    --bule_color: #1C1E53;
+    --white_color: #FFFFFF;
+    --black_color: #282938;
+    --offwhite_color: #F4F6FC;
+    --yellow_color: #FCD980;
+}
+
+body {
+    font-family: var(--poppins);
+}
+
+/* ==================Common css end========================= */
+
+/* ====================navbar css start====================== */
+.navbar {
+
+    padding: 16px 0;
+    background-color: var(--bule_color);
+}
+
+.item_nav {
+    color: #BBBBCB;
+    padding-right: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.item_nav:hover {
+    color: var(--white_color);
+}
+
+.contact_btn {
+    color: var(--white_color);
+    font-weight: 500;
+    font-size: 16px;
+    padding: 16px 48px;
+    background-color: transparent;
+    border: 2px solid rgb(194, 184, 184);
+    border-radius: 41px;
+}
+
+/* ====================navbar css start====================== */
+
+/* ====================Banner part css start=================== */
+
+#bannerpart {
+    background-color: var(--bule_color);
+    padding: 126px 0;
+}
+
+.banner__title {
+    font-size: 54px;
+    font-weight: 600;
+    color: var(--white_color);
+}
+
+.banner__summary {
+    font-size: 16px;
+    font-weight: 500;
+    color: #BBBBCB;
+    padding: 24px 0 48px;
+}
+
+.banner__btn {
+    padding: 16px 56px;
+    border: none;
+    border-radius: 41px;
+    color: var(--black_color);
+    background: var(--yellow_color);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.viewpricing {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white_color);
+}
+
+
+/* ====================Banner Part css end====================== */
