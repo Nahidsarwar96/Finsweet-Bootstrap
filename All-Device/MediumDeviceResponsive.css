@@ -1,0 +1,253 @@
+/* =============Medium device responsive=========== */
+@media (max-width: 991.98px) {
+
+    :root {
+        --poppins: "Poppins", sans-serif;
+        --bule_color: #1C1E53;
+        --white_color: #FFFFFF;
+        --black_color: #282938;
+        --offwhite_color: #F4F6FC;
+        --yellow_color: #FCD980;
+    }
+
+    /* =========navpart responsive start============ */
+
+    .navbar-toggler {
+        background-color: white;
+        border: none;
+    }
+
+    .navbar-toggler:focus {
+
+        box-shadow: none;
+    }
+
+    .navIcon {
+        color: var(--yellow_color);
+    }
+
+
+    .item_nav {
+        display: block;
+        background-color: var(--yellow_color);
+        color: var(--bule_color);
+        margin-top: 10px;
+        text-align: center;
+        border-radius: 10px;
+        padding: 5px 0;
+    }
+
+    .contact_btn {
+
+        width: 100%;
+        margin-top: 10px;
+
+    }
+
+    /* =========navpart responsive end============ */
+
+
+    .banner__title {
+        text-align-last: center;
+    }
+
+    .banner__summary {
+        text-align-last: center;
+    }
+
+    .banner__btn {
+        width: 100%;
+    }
+
+    .viewpricing1 {
+        justify-content: center;
+        margin: 20px 0;
+    }
+
+    /* ===================workpart responsive start=============== */
+
+    #workpart {
+        padding: 66px 0;
+    }
+
+
+    .workLeft {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .workright {
+        text-align: center;
+        background: white;
+        padding: 20px 0;
+        border-radius: 5px;
+    }
+
+    /* ===================workpart responsive end=============== */
+
+    /* ===================Projectpart responsive start=============== */
+
+    #projectPart {
+        padding: 68px 0;
+    }
+
+
+    .project__title {
+        text-align: center;
+    }
+
+    .projectTop__right {
+        text-align: center;
+        display: block;
+        margin-top: 5px;
+    }
+
+
+    /* ===================projectpart responsive end=============== */
+
+    /* ===================FeaturePart responsive Start=============== */
+
+    #featuresPart {
+        padding: 54px 0;
+
+    }
+
+    .features__subtitle {
+        font-size: 42px;
+    }
+
+    .featuresCard {
+        text-align: center;
+    }
+
+    .featuresCard__summary {
+        font-size: 15px;
+    }
+
+    /* ===================FeaturePart responsive end=============== */
+
+    /* ===================ClientPart responsive Start=============== */
+
+    #clientPart {
+        padding: 80px 0;
+    }
+
+    .clientLeft {
+        text-align: center;
+    }
+
+    .clientRight__title {
+        margin-top: 20px;
+    }
+
+
+    .clientRight {
+        text-align: center;
+    }
+
+    .clientimg {
+        margin-bottom: 5px;
+    }
+
+    /* ===================ClientPart responsive end=============== */
+
+    /* ===================FaqPart responsive Start=============== */
+
+    #faqpart {
+        padding: 50px 0;
+    }
+
+    .faqLeft {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+
+
+
+    .faqText {
+        text-align: center;
+    }
+
+    /* ===================FaqPart responsive end=============== */
+
+    /* ===================InquiryPart responsive start=============== */
+
+
+    .inquiryOverlay__content {
+
+        text-align: center;
+    }
+
+    .inquiryRight {
+        padding: 0 50px;
+    }
+
+    .inquiryRight__content {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    /* ===================InquiryPart responsive end=============== */
+
+    /* ===================BlogPart responsive Start=============== */
+    #blogPart {
+        padding: 40px 0;
+    }
+
+    .blogTop__title {
+        text-align: center;
+    }
+
+    .blogBottom {
+        margin-bottom: 30px;
+    }
+
+    /* ===================BlogPart responsive end=============== */
+
+    /* ===================FooterPart responsive Start=============== */
+
+    #footerPart {
+        padding-top: 51px;
+    }
+
+    .footerleft__summary {
+
+        margin-bottom: 47px;
+
+    }
+
+    .footerRight {
+        margin-top: 20px;
+    }
+
+    .footerNav {
+        margin-left: 0 !important;
+        color: #AAAAB1;
+        background: var(--bule_color);
+        padding: 10px 0;
+        color: var(--white_color);
+        display: block;
+        margin-top: 10px;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    /* ===================FooterPart responsive end=============== */
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+/* =============Medium device responsive=========== */

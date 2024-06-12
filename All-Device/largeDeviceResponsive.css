@@ -1,0 +1,133 @@
+/* =============large device responsive=========== */
+
+@media (max-width: 1199.98px) {
+
+    /* =========navpart responsive start============ */
+    .item_nav {
+        padding-right: 40px;
+    }
+
+    /* =========navpart responsive end============ */
+
+    /* ===================bannerpart responsive start=============== */
+
+    .banner__title {
+        font-size: 48px;
+    }
+
+    .banner__btn {
+        font-size: 14px;
+    }
+
+    /* ===================bannerpart responsive end=============== */
+
+
+    /* ===================workpart responsive start=============== */
+
+    .workLeft__title {
+        font-size: 38px;
+    }
+
+    .workLeft__summary {
+        font-size: 14px;
+    }
+
+    .workright {
+        text-align: center;
+    }
+
+    /* ===================workpart responsive end=============== */
+
+    /* ===================FeaturePart responsive Start=============== */
+    .features__subtitle {
+        font-size: 36px;
+
+    }
+
+    .featuresCard__title {
+        font-size: 19px;
+    }
+
+    .featuresCard__summary {
+        font-size: 11px;
+    }
+
+    /* ===================FeaturePart responsive end=============== */
+
+    /* ===================ClientPart responsive Start=============== */
+
+    .clientLeft__title {
+        font-size: 28px;
+    }
+
+
+    .clientRight__title {
+        font-size: 21px;
+    }
+
+
+    .mask__title {
+        font-size: 16px;
+    }
+
+
+
+    /* ===================ClientPart responsive end=============== */
+
+    /* ===================FaqPart responsive Start=============== */
+
+    .faqLeft__title {
+        font-size: 25px;
+    }
+
+    /* ===================FaqPart responsive end=============== */
+
+
+    /* ===================InquiryPart responsive start=============== */
+
+    .inquiryOverlay__title {
+        font-size: 32px;
+    }
+
+    .inquiryRight__content {
+        padding: 10px;
+    }
+
+    /* ===================InquiryPart responsive end=============== */
+
+    /* ===================BlogPart responsive Start=============== */
+    .blogBottom__subtitle {
+        font-size: 19px;
+
+    }
+
+    .blogBottom__subtitle {
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+
+    /* ===================BlogPart responsive end=============== */
+
+    /* ===================FooterPart responsive Start=============== */
+
+    .footerRight__summary {
+        font-size: 15px;
+    }
+
+
+    .footerRight__bottom {
+        padding-left: 10px;
+    }
+
+    /* ===================FooterPart responsive end=============== */
+
+
+
+
+
+}
+
+
+
+/* =============large device responsive=========== */

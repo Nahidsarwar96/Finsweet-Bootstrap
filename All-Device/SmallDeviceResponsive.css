@@ -1,0 +1,41 @@
+@media (max-width: 767.98px) {
+    /* =================Small Device Responsive====================== */
+
+    /* =========banner responsive start============ */
+    #bannerpart {
+        padding: 78px 0;
+    }
+
+    .banner__title {
+        font-size: 34px;
+    }
+
+    /* =========banner responsive end============ */
+
+
+    /* =========features responsive start============ */
+
+    .features__subtitle {
+        font-size: 31px;
+    }
+
+    /* =========features responsive end============ */
+
+    /* =========Inquiry responsive start============ */
+    .inquiryOverlay__title {
+        font-size: 27px;
+    }
+
+    .inquiryOverlay__summary {
+        font-size: 12px;
+    }
+
+    /* =========Inquiry responsive end============ */
+
+
+
+
+    /* =================Small Device Responsive====================== */
+
+
+}

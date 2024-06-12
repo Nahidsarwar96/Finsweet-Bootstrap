@@ -62,6 +62,8 @@ body {
     background-color: var(--bule_color);
 }
 
+
+
 .item_nav {
     color: #BBBBCB;
     padding-right: 30px;
@@ -123,3 +125,466 @@ body {
 
 
 /* ====================Banner Part css end====================== */
+
+/* ====================Work Part css Start====================== */
+
+#workpart {
+    padding: 128px 0;
+    background-color: var(--offwhite_color);
+}
+
+.workLeft__title {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--black_color);
+}
+
+.workLeft__summary {
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px 0;
+}
+
+
+.workRight__title {
+    color: #282938;
+    font-size: 32px;
+    font-weight: 500;
+    padding: 16px 0 8px;
+}
+
+.workRight__Summary {
+    color: #282938;
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+
+/* ====================Work Part css end====================== */
+
+/* ====================Project Part css Start====================== */
+#projectPart {
+    padding: 128px 0;
+}
+
+.project__title {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--black_color);
+
+}
+
+.projectTop__right {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black_color);
+}
+
+.projectBottomLeft {
+    overflow: hidden;
+}
+
+.overlay1 {
+    height: 100%;
+    width: 48%;
+    left: -50%;
+    top: 0;
+    background-image: linear-gradient(to top, #1C1E53, rgba(28, 30, 83, 0.4)30%);
+    transition: all linear 0.3s;
+}
+
+.projectBottomLeft:hover .overlay1 {
+    left: 0;
+}
+
+
+.overlay__content {
+    left: 0;
+    bottom: 0;
+    padding: 0 25px 76px 30px;
+}
+
+.overlayContent__title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--white_color);
+}
+
+.overlayContent__summary {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white_color);
+    padding: 16px 0 32px;
+}
+
+.overlayContent__icon {
+
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--yellow_color);
+}
+
+.projectRightTop {
+    margin-top: -15px;
+    overflow: hidden;
+
+}
+
+.overlay-2 {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: -700px;
+    background-image: linear-gradient(to top, #1C1E53, rgba(28, 30, 83, 0.4)30%);
+    transition: all linear 0.5s;
+}
+
+.projectRightTop:hover .overlay-2 {
+    top: 0;
+}
+
+.overlayContent2 {
+    left: 0;
+    bottom: 0;
+    padding: 0 36px 45px 58px;
+
+}
+
+.overlayContent2__title {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--white_color);
+    margin-bottom: 10px;
+}
+
+
+.overlayContent2__icon {
+    color: var(--yellow_color);
+}
+
+.projectRightBottom {
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.overlay-3 {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -800px;
+    background-image: linear-gradient(to top, #1C1E53, rgba(28, 30, 83, 0.4)30%);
+    transition: all linear 0.5s;
+
+}
+
+.projectRightBottom:hover .overlay-3 {
+    right: 0;
+}
+
+.overlayContent3 {
+    left: 0;
+    bottom: 0;
+    padding: 0 36px 45px 58px;
+
+}
+
+/* ====================Project Part css end====================== */
+
+/* ====================Features Part css Start====================== */
+
+#featuresPart {
+    padding: 128px 0;
+    background: var(--offwhite_color);
+}
+
+.features__title {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black_color);
+}
+
+.features__subtitle {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--black_color);
+    margin: 12px 0 47px;
+}
+
+.featuresCard {
+    background-color: var(--white_color);
+    padding: 58px 25px 48px 32px;
+}
+
+.featuresCard__title {
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--black_color);
+    margin: 22px 0 12px;
+}
+
+.featuresCard__summary {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--black_color);
+
+}
+
+
+
+/* ====================Features Part css end====================== */
+
+/* ====================Client Part css Start====================== */
+#clientPart {
+    padding: 135px 0;
+    background-color: #F9FBFD;
+}
+
+.clientLeft__title {
+    font-size: 35px;
+    font-weight: 600;
+    color: var(--black_color);
+}
+
+
+.clientLeft__summary {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--black_color);
+    margin-top: 16px;
+}
+
+
+.clientRight__title {
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--black_color);
+}
+
+
+.mask__title {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.mask__summary {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--black_color);
+}
+
+/* ====================Client Part css end====================== */
+
+/* ====================Faq Part css Start====================== */
+
+#faqpart {
+    padding: 130px 0;
+    background-color: var(--white_color);
+}
+
+
+.faqLeft__title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+
+.accordion-item {
+    border: none;
+}
+
+
+.accordion-button::after {
+    content: "+";
+    background-image: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+    content: "-";
+    transform: none;
+}
+
+/* ====================Faq Part css end====================== */
+
+
+/* ====================Inquiry Part css start====================== */
+#inquiryPart {
+    padding-top: 100px;
+}
+
+
+.inquiryOverlay {
+    background-color: rgb(28, 30, 83, 0.5);
+}
+
+.inquiryOverlay__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    padding: 0 90px;
+}
+
+.inquiryOverlay__title {
+    font-size: 45px;
+    font-weight: 600;
+    color: var(--white_color);
+    margin-bottom: 24px;
+}
+
+
+.inquiryOverlay__summary {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--white_color);
+}
+
+.inquiryRight {
+    height: 100%;
+    width: 100%;
+    background-color: #1C1E53;
+}
+
+
+.inquiryRight__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 60px;
+}
+
+
+.inquiryRight__title {
+    font-size: 32px;
+    font-weight: 500px;
+    margin-bottom: 16px;
+}
+
+.inquiryRight__summary {
+    font-size: 16px;
+    font-weight: 500px;
+    margin-bottom: 40px;
+}
+
+form input {
+    margin-bottom: 18px;
+    color: #F4F6FC !important;
+}
+
+
+.form-control:focus {
+    border-color: #86b6fe00;
+    box-shadow: none;
+}
+
+.form-control {
+    background-color: transparent;
+    border-color: #888aa75e;
+    padding: 10px;
+    color: #888aa75e;
+}
+
+.inquiryCustomBtn {
+    background-color: var(--yellow_color);
+    padding: 16px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.btn {
+    border: none;
+
+}
+
+
+/* ====================Inquiry Part css end====================== */
+
+
+/* ====================Blog Part css Start====================== */
+#blogPart {
+    padding: 128px 0;
+}
+
+.blogTop__title {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.blogBottom__date {
+    margin: 40px 0 16px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #AAAAB1;
+}
+
+
+.blogBottom__subtitle {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.blogBottom__summary {
+    margin: 16px 0 32px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #AAAAB1;
+}
+
+.blogIcon {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black_color);
+}
+
+/* ====================Blog Part css end====================== */
+
+/* ====================Footer Part css Start====================== */
+
+#footerPart {
+    background-color: var(--bule_color);
+    padding-top: 100px;
+
+}
+
+.footerleft__summary {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--white_color);
+    margin-top: 22px;
+    margin-bottom: 86px;
+    color: #AAAAB1;
+
+}
+
+.footerbottom {
+    background-color: #FCD980;
+}
+
+.footerRight__summary {
+    margin: 14px 0 28px;
+    color: #AAAAB1;
+}
+
+.footerIcon a {
+    color: white;
+    padding-right: 5px;
+}
+
+
+.footerNav {
+    margin-left: 20px;
+    color: #AAAAB1;
+}
+
+/* ====================Footer Part css end====================== */

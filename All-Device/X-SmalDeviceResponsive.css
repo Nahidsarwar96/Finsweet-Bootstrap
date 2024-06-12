@@ -1,0 +1,73 @@
+@media (max-width: 575.98px) {
+
+    /* =================Small Device Responsive====================== */
+
+    /* =========banner responsive start============ */
+
+    .banner__title {
+        font-size: 28px;
+    }
+
+    /* =========banner responsive end============ */
+
+    /* =========project responsive start============ */
+
+    .project__title {
+        font-size: 37px;
+    }
+
+    /* =========project responsive end============ */
+
+    /* =========Features responsive start============ */
+
+
+    .features__subtitle {
+        font-size: 26px;
+    }
+
+    /* =========features responsive start============ */
+
+    /* =========Faq responsive start============ */
+
+
+    .faqLeft__title {
+        font-size: 23px;
+    }
+
+    /* =========Faq responsive end============ */
+    /* =========Inquiry responsive end============ */
+
+
+    .inquiryOverlay__content {
+        padding: 0 49px;
+    }
+
+    .inquiryOverlay__title {
+        font-size: 20px;
+    }
+
+    .inquiryRight__title {
+        font-size: 26px;
+    }
+
+    .inquiryRight__summary {
+        font-size: 12px;
+    }
+
+    /* =========Inquiry responsive end============ */
+
+    /* =========blogPart responsive start============ */
+
+
+    .blogTop__title {
+        font-size: 29px;
+    }
+
+    /* =========blogpart responsive end============ */
+
+
+    /* =================Small Device Responsive====================== */
+
+
+
+}
